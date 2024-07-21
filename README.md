@@ -32,7 +32,7 @@ conda activate gsrec
 
 ## Data
 
-We provided our [preprocessed Replica](https://drive.google.com/file/d/1PGW0D7Sy5H7KRrRSXhVx3qcI9Y8AU8q1/view?usp=drive_link) dataset (8 scenes, ~1.7GB) for reference. You can download the dataset and put it in the ```data``` folder. The data structure similar to other 3DGS project and will be organised as follows:
+We provided our [preprocessed Replica](https://drive.google.com/file/d/1PGW0D7Sy5H7KRrRSXhVx3qcI9Y8AU8q1/view?usp=drive_link) dataset (8 scenes, ~1.7GB) for reference. You can download the dataset and put it in the ```data``` folder. The data structure is similar to other 3DGS projects and will be organized as follows:
 
 ```
 data/
@@ -61,15 +61,15 @@ For custom data, you should process the image sequences with [Colmap](https://co
 
 ## Training
 
-For training a single scene, take scan1 from Replica as example:
+For training a single scene, take scan1 from Replica as an example:
 ```
 ./train_single.sh
 ```
-It will save the results into ```outputs/scan1```. The training should take about 1 hours till the end.
+It will save the results into ```outputs/scan1```. The training should take about 1 hour till the end.
 
 
 ## Evaluation
-You can use the following code to extract mesh. Take the outputs from previous steps as example:
+You can use the following code to extract mesh. Take the outputs from previous steps as an example:
 ```
 python extract_mesh.py -m outputs/scan1 --mesh_type poisson
 ```
@@ -91,9 +91,9 @@ If you find our work helpful, please consider citing:
 
 Please follow the LICENSE of [3D-GS](https://github.com/graphdeco-inria/gaussian-splatting).
 
-## Concurent Works
+## Concurrent Works
 Surface reconstruction for 3DGS is a very important task and we found several concurrent works along this direction. You can check the [``Related links``](https://wuqianyi.top/gsrec) in our project page. These works are super cool and insightful.
 
 ## Acknowledgement
 
-We thank all authors from [3D-GS](https://github.com/graphdeco-inria/gaussian-splatting) for presenting such an excellent work. We also thanks all the authors from [Scaffold-GS](https://arxiv.org/abs/2312.00109), which we choose it as base model. 
+We thank all authors from [3D-GS](https://github.com/graphdeco-inria/gaussian-splatting) for presenting such an excellent work. We also thanks all the authors from [Scaffold-GS](https://arxiv.org/abs/2312.00109), which we choose as a base model. 
