@@ -155,11 +155,11 @@ class OptimizationParams(ParamGroup):
         self.lambda_normal_consistency = 0.2
         self.lambda_eki = 0.1
         self.lambda_render_norm_reg = 0.2
-        self.lambda_depth_sdf = 10
         
         self.use_mask_for_normal = False
         self.use_mask_for_rgb = False
         
+        # Moving Least Square parameters
         self.fmls_sdf_offset = 0.01
         self.fmls_use_normal = False
         self.fmls_normal_weight = 0.05

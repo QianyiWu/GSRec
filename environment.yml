@@ -1,4 +1,4 @@
-name: scaffold_gs
+name: gsrec
 channels:
   - pytorch
   - pyg
@@ -18,5 +18,6 @@ dependencies:
     - einops
     - wandb
     - lpips
+    - open3d
     - submodules/diff-gaussian-rasterization
     - submodules/simple-knn
