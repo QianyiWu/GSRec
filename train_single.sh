@@ -13,4 +13,4 @@ python train.py\
     --sdf_inside_out\
     --eval\
     --sdf_start_iter 15000\
-    -m outputs_0720/scan1
+    -m outputs/scan1
