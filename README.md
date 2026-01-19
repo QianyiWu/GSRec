@@ -1,6 +1,6 @@
 # Surface Reconstruction from 3D Gaussian Splatting via Local Structural Hints
 
-[[`Project Page`](https://wuqianyi.top/gsrec)][[`arxiv`]()]
+[[`Project Page`](https://qianyiwu.github.io/gsrec)][[`arxiv`]()]
 
 
 ## Overview
